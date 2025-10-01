@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# 模型和数据
+checkpoints/
+data/
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# 日志和结果
+results/
+logs/
+*.log
+wandb/
+runs/
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# HuggingFace缓存
+.cache/
+huggingface/
+
+# 大文件
+*.tar
+*.tar.gz
+*.zip
+*.rar 
